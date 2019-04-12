@@ -8,6 +8,7 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
+
 const Index = ({ data: {homeJson: {content, purposesTitle, purposes, plansTitle, plans}} }) => (
   <Layout>
     <Box>
