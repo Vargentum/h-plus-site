@@ -11,7 +11,7 @@
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
     "test": "ava **/*.test.js --verbose",
-    "heroku-postbuild": "gatsby build"
+    "heroku-postbuild": "npm run build"
   },
   "greenkeeper": {
     "ignore": [
